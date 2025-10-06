@@ -1,0 +1,232 @@
+{
+	"intents": [
+		{
+			"tag": "greeting",
+			"patterns": [
+				"Hi",
+				"How are you",
+				"Is anyone there?",
+				"Hello",
+				"Good day",
+				"Whats up",
+				"Hey",
+				"greetings"
+			],
+			"responses": [
+				"Hello!",
+				"Good to see you again!",
+				"Hi there, how can I help?"
+			]
+		},
+		{
+			"tag": "goodbye",
+			"patterns": [
+				"cya",
+				"See you later",
+				"Goodbye",
+				"I am Leaving",
+				"Have a Good day",
+				"bye",
+				"cao",
+				"see ya"
+			],
+			"responses": [
+				"Sad to see you go :(",
+				"Talk to you later",
+				"Goodbye!"
+			]
+		},
+		{
+			"tag": "programming",
+			"patterns": [
+				"What is progamming?",
+				"What is coding?",
+				"Tell me about programming",
+				"Tell me about coding",
+				"What is software development?"
+			],
+			"responses": [
+				"Programming, coding or software development, means writing computer code to automate tasks."
+			]
+		},
+		{
+			"tag": "resource",
+			"patterns": [
+				"Where can I learn to code?",
+				"Best way to learn to code",
+				"How can I learn programming",
+				"Good programming resources",
+				"Can you recommend good coding resources?"
+			],
+			"responses": [
+				"Check out the YouTube channel and The Python Bible series (7 in 1)."
+			]
+		},
+		{
+			"tag": "stocks",
+			"patterns": [
+				"What are my stocks?",
+				"Which stocks do I own?",
+				"Show my stock portfolio",
+				"Give me some stock suggestions",
+				"Recommend stocks"
+			],
+			"responses": [
+				"Here are a few stock picks for you:"
+			]
+		},
+		{
+			"tag": "weather",
+			"patterns": [
+				"What's the weather?",
+				"Tell me the weather in London",
+				"How's the weather today?",
+				"What's the weather like in Mumbai?",
+				"Weather update"
+			],
+			"responses": [
+				"You can check the latest weather here: https://www.weather.com/, after entering the website, please chose your location accordingly."
+			]
+		},
+		{
+			"tag": "calculator",
+			"patterns": [
+				"Calculate 5 + 7",
+				"What is 12 * 8?",
+				"Solve 100 / 5",
+				"Add 45 and 67",
+				"Subtract 90 - 45",
+				"Multiply 12 and 6",
+				"Divide 50 by 2"
+			],
+			"responses": [
+				"Here’s the result:"
+			]
+		},
+		{
+			"tag": "thanks",
+			"patterns": [
+				"Thanks",
+				"Thank you",
+				"Much appreciated",
+				"Thanks a lot",
+				"Cheers"
+			],
+			"responses": [
+				"You're welcome!",
+				"No problem at all!",
+				"Glad I could help."
+			]
+		},
+		{
+			"tag": "feelings",
+			"patterns": [
+				"I'm sad",
+				"I feel lonely",
+				"I'm happy",
+				"I'm excited",
+				"I feel tired"
+			],
+			"responses": [
+				"I’m here for you.",
+				"That’s great to hear!",
+				"I understand — want me to cheer you up?"
+			]
+		},
+		{
+			"tag": "bot_identity",
+			"patterns": [
+				"Who are you?",
+				"What are you?",
+				"Are you human?",
+				"What’s your name?"
+			],
+			"responses": [
+				"I’m your AI chatbot assistant 🤖",
+				"I’m a virtual assistant designed to help you."
+			]
+		},
+		{
+			"tag": "jokes",
+			"patterns": [
+				"Tell me a joke",
+				"Make me laugh",
+				"Say something funny"
+			],
+			"responses": [
+				"Here’s a joke for you:"
+			]
+		},
+		{
+			"tag": "quotes",
+			"patterns": [
+				"Give me a quote",
+				"Motivate me",
+				"Say something inspiring"
+			],
+			"responses": [
+				"Here’s a quote to inspire you:"
+			]
+		},
+		{
+			"tag": "personal",
+			"patterns": [
+				"Do you like me?",
+				"Do you love me?",
+				"Are we friends?"
+			],
+			"responses": [
+				"Of course we’re friends!",
+				"I like chatting with you 😊",
+				"I’m here whenever you need me."
+			]
+		},
+		{
+			"tag": "hobbies",
+			"patterns": [
+				"What’s your hobby?",
+				"Do you like sports?",
+				"What do you do for fun?"
+			],
+			"responses": [
+				"I like learning new things from conversations!",
+				"I enjoy chatting with people like you."
+			]
+		},
+		{
+			"tag": "time",
+			"patterns": [
+				"What time is it?",
+				"Tell me the current time",
+				"What’s the time now?"
+			],
+			"responses": [
+				"Here’s the current time:"
+			]
+		},
+		{
+			"tag": "jokes",
+			"patterns": [
+				"Tell me a joke",
+				"Make me laugh",
+				"Say something funny"
+			],
+			"responses": [
+				"Here's a joke for you:"
+			]
+		},
+		{
+			"tag": "news",
+			"patterns": [
+				"What's the latest news?",
+				"Give me today's headlines",
+				"Any news updates?",
+				"Tell me some news",
+				"Show me news"
+			],
+			"responses": [
+				"You can check the latest news here: https://news.google.com/, after entering the website, please chose your location accordingly."
+			]
+		}
+	]
+}
